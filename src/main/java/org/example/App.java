@@ -10,4 +10,9 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+
+    public static String FizzBuzz(int ... n){
+        return "";
+    }
+
 }
