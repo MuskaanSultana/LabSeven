@@ -11,7 +11,11 @@ public class App
         System.out.println( "Hello World!" );
     }
 
-    public static String FizzBuzz(int ... n){
+    public static String FizzBuzz(int n){
+        if (n % 3 == 0){
+            return "Fizz";
+        }
+
         return "";
     }
 
