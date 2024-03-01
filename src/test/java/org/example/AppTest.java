@@ -14,4 +14,8 @@ public class AppTest
         String value = App.FizzBuzz(3);
         assertEquals("Fizz", value);
     }
+    public void testFizzBuzz5(){
+        String value = App.FizzBuzz(5);
+        assertEquals("Fizz", value);
+    }
 }
