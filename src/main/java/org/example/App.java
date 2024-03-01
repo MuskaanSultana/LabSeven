@@ -8,8 +8,19 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 1; i <= 100; i++) {
+            result.append(FizzBuzz(i));
+            if (i < 100) {
+                result.append(", ");
+            }
+        }
+
+        System.out.println(result.toString());
     }
+
 
     public static String FizzBuzz(int n){
         if(n%3==0 && n%5==0){
