@@ -16,8 +16,9 @@ public class App
             return "Fizz";
         }
         else if(n%5==0){
-            return"Buzz";
+            return "Buzz";
         }
+
 
         return "";
     }
