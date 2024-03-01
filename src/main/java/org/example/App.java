@@ -21,10 +21,9 @@ public class App
         else if(n%5==0){
             return "Buzz";
         }
-
-
-
-        return "";
+        else{
+            return Integer.toString(n);
+        }
     }
 
 }
