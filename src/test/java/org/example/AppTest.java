@@ -18,4 +18,8 @@ public class AppTest
         String value = App.FizzBuzz(5);
         assertEquals("Buzz", value);
     }
+    public void testFizzBuzz15(){
+        String value= App.FizzBuzz(15);
+        assertEquals("FizzBuzz",value);
+    }
 }
